@@ -49,8 +49,8 @@ config = {
 
 ## Experimental Results: Predict Value v.s. True Value
 
-*$\mathnormal{precision} = 1 - \mathnormal{error}$*\
-*$\mathnormal{error} = \frac{\mathnormal{predict value} - \mathnormal{true value}}{\mathnormal{true value}}$*
+$\mathnormal{precision} = 1 - \mathnormal{error}$
+$\mathnormal{error} = \frac{\mathnormal{predict value} - \mathnormal{true value}}{\mathnormal{true value}}$
 
 
 ***Valid Data***
