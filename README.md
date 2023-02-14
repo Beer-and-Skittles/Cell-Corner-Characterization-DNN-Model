@@ -46,27 +46,6 @@ config = {
     'save_path': './models/model.ckpt'  
 }
 ``` 
-
-## Experimental Results: Predict Value v.s. True Value
-
-$\mathnormal{precision} = 1 - \mathnormal{error}$\
-$\mathnormal{error} = \frac{\mathnormal{predict value} - \mathnormal{true value}}{\mathnormal{true value}}$
-
-
-***Valid Data***
-| cell | NAND2X1_RVT  | NOR2X1_RVT  | AND2X1_RVT  |  OR2X1_RVT |
-|---|---|---|---|---|
-| mean precision  |  96.74% |  96.44% | 92.78%  | 93.17% |
-| mean error  |  3.26% | 3.56%  | 7.22%  | 6.83%   |
-|   |  ![Alt text](img/nand_valid.png) | ![Alt text](img/nor_valid.png)  | ![Alt text](img/and_valid.png)  |  ![Alt text](img/or_valid.png) |
-
-***Test Data***
-| cell | NAND2X1_RVT  | NOR2X1_RVT  | AND2X1_RVT  |  OR2X1_RVT |
-|---|---|---|---|---|
-| mean precision | 93.30%  | 92.89%  |  92.07% | 86.35%  |
-| mean error  | 6.70%  | 7.11%  |  7.93%  | 13.65%  |
-|   |  ![Alt text](img/nand_test.png) | ![Alt text](img/nor_test.png)  | ![Alt text](img/and_test.png)  | ![Alt text](img/or_test.png)  |
-
 ## References:
 * https://github.com/ga642381/ML2021-Spring/blob/main/HW01/HW01.ipynb
 * https://github.com/Beer-and-Skittles/Cell-Library-json2csv-Converter/blob/main/README.md
