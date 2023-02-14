@@ -1,5 +1,5 @@
 ## Summary
-Solve cell corner characterization problem through regression with deep neural networks(DNN).
+Solve cell corner characterization problem through deep neural networks(DNN).
 
 ***Input Features:***
 * voltage
